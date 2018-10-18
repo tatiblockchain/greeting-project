@@ -3,12 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "test": "mocha",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "fs-extra": "^7.0.0",
+    "ganache-cli": "^6.1.8",
+    "mocha": "^5.2.0",
+    "solc": "^0.4.25",
+    "truffle-hdwallet-provider": "0.0.6",
+    "vue": "^2.5.17",
+    "web3": "^1.0.0-beta.34"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
