@@ -2,6 +2,8 @@
 
 This project contains Ethereum Smart Contract Implementation on a VueJS project. It is a smart contract greeting code in solidity implemented with a vueJS front end web-application.
 
+The full deployed website is running here [Greet Project Website](https://greet.tatiblockchain.co.za)
+
 There are detailed instructions on setting up, compiling and deploying the the [Ethereum Smart Contract on our website.](https://documentation.tatiblockchain.co.za/get-started).
 
 Before you proceed, please re-deploy the smart-contract. Update the deploy script here - root/ethereum/deploy.js with a 12 word phrase and http provider.
