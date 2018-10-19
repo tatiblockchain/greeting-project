@@ -1,17 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>greeting-project</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Ethereum Smart Contract in Solidity implementation with VueJS Application - Compile, Deploy and Test">
+  <meta name="keywords" content="blockchain, Ethereum SmartContracts, blockchain technology, decentralised applications, DAPPS">
+  <meta property="og:title" content="Smart Contracts ← VueJs Implementation">
+  <meta property="og:site_name" content="Greeting Project">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://greet.tatiblockchain.co.za">
+  <meta property="og:image" content="https://greet.tatiblockchain.co.za/img/greet-image.jpg">
+  <meta property="og:email" content="info@tatiblockchain.co.za">
+  <meta property="og:description" content="Ethereum Smart Contract in Solidity implementation with VueJS Application - Compile, Deploy and Test">
+  <meta name="twitter:card" content="Smart Contracts ← VueJs Implementation">
+  <meta name="twitter:title" content="VueJs implementation of Ethereum Smart Contract">
+  <meta name="twitter:description" content="Ethereum Smart Contract in Solidity implementation with VueJS Application - Compile, Deploy and Test">
+  <meta name="twitter:creator" content="@NakamotoZatosh">
+  <meta name="twitter:image" content="https://greet.tatiblockchain.co.za/img/greet-image.jpg">
+  <meta itemprop="name" content="Smart Contracts ← VueJs Implementation">
+  <meta itemprop="description" content="Ethereum Smart Contract in Solidity implementation with VueJS Application - Compile, Deploy and Test">
+  <meta itemprop="image" content="https://greet.tatiblockchain.co.za/img/greet-image.jpg">
+  <link rel="shortcut icon" type="image/png" href="./favicon.ico"/>
+  <link rel="stylesheet" href="./style.css">
+  <title>Greeting Project | Ethereum Smart Contract</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+</head>
   <body>
     <noscript>
       <strong>We're sorry but greeting-project doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
+    <!-- Add items here we want to pre-render -->
+    <!-- Navigation bar starts here -->
+      <div class="ico">
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-primary border-bottom shadow dontmove">
+          <img class="img-fluid" src="./img/tati_blockchain_solutions.png" width="250" height="50">
+          <h5 class="my-0 mr-md-auto font-weight-normal"> </h5>
+      </div>
+      </div>
+    <!-- Navigation bar ends here -->
+
+    <!-- Body Starts here  -->
+    <div class="container outside">
+      <div class="jumbotron jumbotron-fluid bg-primary effect">
+      <div class="container">
+        <h1 class="display-4">Greeting Project - Ethereum Smart Contract implementation with VueJS</h1>
+        <p class="lead">This is an implementation of an Ethereum smart contract with a Vue Cli-3 project, to demonstrate how to implement a simple smart contract.
+          The smart contract written in solidity, but compiled and deployed using this JS application. This project is not connected to any database, the data is fed to this
+          website directly from the ethereum smart contract, with no middle-zone. The instructions on how to download nodejs and initialise the
+         project are available on <a href="https://documentation.tatiblockchain.co.za">our documentation page.</a> You can also find step-by-step guide on how to write, compile and deploy this smart contract.</p>
+          <p class="lead">The Smart contract code can be found here on <a href="https://rinkeby.etherscan.io/address/0x23f8944b98bec82fe40c630c21d5f51d3805cbff">etherscan</a>,
+          and our git repo for the contract and this website can be <a href="https://github.com/tatiblockchain/greeting-project">found here.</a></p>
+          <hr>
+          <p class="lead">This contract is deployed to the Rinkeby Test Network, in order to interact with it you will need, Chrome Browser, MetaMask installed and
+           wallet enabled to the Rinkeby Network. You will also need some Rinkeby Test Ether to play with, instructions on how to get test Rinkeby Ether
+          is available on our <a href="https://documentation.tatiblockchain.co.za">documentation page as well.</a></p>
+          <p class="lead">This is a simple web application, but the same process can be applied to more complex projects, the front end is centralised for our project - but more advanced decentralised front-ends can also be built,
+           to make the entire application front and back end decentralised. The same process can be applied to build mobile applications with a smart-contract/blockchain back-end - you can build voting applications, decentralised organisations,
+          blockchain tokens and many more. The possibilites are only limited by your imagination.</p>
+           <hr>
+           <p class="lead">If you have a smart contract idea, would like to build your own decentralised application or would rather have us build it for you, get in
+          touch with our project management team on our <a href="https://tatiblockchain.co.za/contact">official blockchain</a> website.</p>
+      </div>
+    </div>
+    <br>
+    <br>
+    </div>
+    <!-- Body ends here -->
+
+    <!-- End of items we want to pre-render -->
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <div class="container">
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <small class="d-block mb-3 text-white">&copy; Copyright 2018</small>
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </body>
 </html>
